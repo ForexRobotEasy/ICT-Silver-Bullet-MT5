@@ -1,0 +1,70 @@
+
+//+------------------------------------------------------------------+
+//|                                     ICT Silver Bullet MT5        |
+//|                                              forexroboteasy.com |
+//|                                                       Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+#property copyright 'forexroboteasy.com'
+#property link      'https://www.forexroboteasy.com'
+#property version   '1.0'
+
+//+------------------------------------------------------------------+
+//| Custom Indicator initialization function                         |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // TODO: Add initialization logic here
+
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Custom Indicator deinitialization function                       |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // TODO: Add deinitialization logic here
+}
+
+//+------------------------------------------------------------------+
+//| Custom Indicator iteration function                              |
+//+------------------------------------------------------------------+
+void OnCalculate(const int rates_total,
+                 const int prev_calculated,
+                 const datetime &time[],
+                 const double &open[],
+                 const double &high[],
+                 const double &low[],
+                 const double &close[],
+                 const long &tick_volume[],
+                 const long &volume[],
+                 const int &spread[])
+{
+    // TODO: Add calculation logic here
+
+    // ICT Silver Bullet Concept
+    // TODO: Implement ICT Silver Bullet concept functions
+
+    // Smart Money Concept Trading
+    // TODO: Implement Smart Money concept trading functions
+
+    // Fair Value Gaps (FVG)
+    // TODO: Implement Fair Value Gaps functions
+
+    // Market Structure
+    // TODO: Implement Market Structure functions
+
+    // Buy-side and Sell-side Liquidity
+    // TODO: Implement buy-side and sell-side liquidity functions
+
+    // Market Highs and Lows
+    // TODO: Track market highs and lows
+
+    // Base Presentation
+    // TODO: Present indicator information in a base format
+
+    // Trading Functions
+    // TODO: Implement trading functions
+
+    // TODO: Add logical conclusion here
+}
